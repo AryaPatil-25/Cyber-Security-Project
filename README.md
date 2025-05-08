@@ -1,17 +1,48 @@
-**CyberBullying Detection and Content Moderation System**
+#CyberBullying Detection and Content Moderation System
+#Overview
+This project aims to create a system that automatically identifies and removes hate speech, cyberbullying, and offensive language from user-generated content. The goal is to foster a safer and more respectful online environment.
 
-Our project addresses this challenge through the development of a Hate Speech Detection and Auto Deletion system. The primary goal of this system is to automatically recognize and remove hate speech, cyberbullying, and offensive language from user-generated comments, thereby creating a safer and more respectful online environment.
+#Objectives
+Develop and implement a robust hate speech detection model.
+Automate the deletion process for identified hate speech content.
+Analyze the impact of cultural context on hate speech detection.
+Balance freedom of expression with the need for online safety.
+Provide recommendations to enhance the efficiency and accuracy of hate speech detection algorithms.
 
-Objectives:
-1. Develop and implement a robust hate speech detection model
-2. Automate the deletion process for identified hate speech content
-3. Analyze the impact of cultural context on hate speech detection
-4. Safeguard the balance between freedom of expression and online safety
-5. Provide recommendations for improving the efficiency and accuracy of hate speech
-detection algorithms
+Technologies Used
 
-Technology used:
-Dashboard: Html
-Programming language: Python
-Libraries: Torch, Transformers , Flask
-Hardware requirements: Intel i5 or above processor Software requirements: Windows 10 or above
+Programming Language: Python
+Dashboard: HTML
+Machine Learning: Custom-trained models for hate speech detection
+Data: labeled_data2.csv for training and evaluation
+Web Framework: Flask (as indicated by app.py)
+
+Repository Structure
+
+app.py: Main application file
+hate_speech_detection.py: Contains the detection logic
+train_hate_speech_model.py: Script to train the detection model
+labeled_data2.csv: Dataset used for training and evaluation
+templates/: HTML templates for the dashboard
+model/: Directory containing trained model files
+
+Getting Started
+
+Clone the repository:git clone https://github.com/AryaPatil-25/Cyber-Security-Project.git
+cd Cyber-Security-Project
+
+
+Install dependencies:pip install -r requirements.txt
+
+
+Train the model:python train_hate_speech_model.py
+
+
+Run the application:python app.py
+
+
+
+Contribution
+Contributions are welcome! Please fork the repository and submit a pull request with your enhancements.
+License
+This project is licensed under the MIT License.
