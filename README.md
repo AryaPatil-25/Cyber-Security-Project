@@ -46,5 +46,6 @@ Run the application:python app.py
 
 **Contribution**
 Contributions are welcome! Please fork the repository and submit a pull request with your enhancements.
+
 **License**
 This project is licensed under the MIT License.
