@@ -30,6 +30,7 @@ model/: Directory containing trained model files
 
 **STEP 1:**
 Clone the repository:git clone https://github.com/AryaPatil-25/Cyber-Security-Project.git
+
 cd Cyber-Security-Project
 
 **STEP 2:**
